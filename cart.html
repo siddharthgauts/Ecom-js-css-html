@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYShop-Carts</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+
+    <header class="header" id="header">
+        <div class="top-nav">
+            <div class="container d-flex">
+                <p>Order online or Call us: +91 7704959880 </p>
+                <ul class="d-flex">
+                    <li><a href="">About</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <div class="nav-center container d-flex">
+                <a href="index.html" class="logo">  <h1>FashionShop</h1></a>
+                <ul class="nav-list d-flex">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#terms" class="nav-link">TERMS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">CONTACTS</a>
+                    </li>
+
+                    <li class="icons d-flex">
+                        <a href="login.html" class="icon">
+                            <i class="bx bx-user"></i>
+                        </a>
+                        <div class="icon"><i class="bx bx-search"></i></div>
+                        <div class="icon"><i class="bx bx-heart"></i>
+                        <span class="d-flex">0</span></div>
+                        <a href="cart.html" class="icon">
+                            <i class="bx bx-cart"></i>
+                            <span class="d-flex">0</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="icons d-flex">
+                    <a href="login.html" class="icon">
+                        <i class="bx bx-user"></i>
+                    </a>
+                    <div class="icon"><i class="bx bx-search"></i></div>
+                    <div class="icon"><i class="bx bx-heart"></i>
+                    <span class="d-flex">0</span></div>
+                    <a href="cart.html" class="icon">
+                        <i class="bx bx-cart"></i>
+                        <span class="d-flex">0</span>
+                    </a>
+                </div>
+
+                <div class="hamburger">
+                    <i class="bx bx-menu-alt-left"></i>
+                </div>
+
+            </div>
+        </div>
+
+           
+    </header>
+
+
+     <div class="container cart">
+                <table>
+                    <tr>
+                        <th>Product</th>
+                        <th>Amount</th>
+                        <th>Price</th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="images/metal-tshirt.png" alt="">
+                                <div class="infoplus">
+                                    <h3>Unisex Thsirt</h3>
+                                    <p>lorem ipsum</p>
+                                    <span>Price: 500 INR</span>
+                                    <br>
+                                    <a href="#">remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td class="euro">550 INR</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="images/metalicblue.png" alt="">
+                                <div class="infoplus">
+                                    <h3>Unisex Thsirt</h3>
+                                    <p>lorem ipsum</p>
+                                    <span>Price: 450 INR</span>
+                                    <br>
+                                    <a href="#">remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td class="euro">400 INR</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="images/tshirt-petrol.png" alt="">
+                                <div class="infoplus">
+                                    <h3>Unisex Thsirt</h3>
+                                    <p>lorem ipsum</p>
+                                    <span>Price: 450 INR</span>
+                                    <br>
+                                    <a href="#">remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td class="euro">700 INR</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="images/tshirt-lila.png" alt="">
+                                <div class="infoplus">
+                                    <h3>Unisex Thsirt</h3>
+                                    <p>lorem ipsum</p>
+                                    <span>Price: 450 INR</span>
+                                    <br>
+                                    <a href="#">remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td class="euro">600 INR</td>
+                    </tr>
+                </table>
+
+                <div class="total-price">
+                    <table>
+                        <tr>
+                            <td>Subtitle</td>
+                            <td>200 INR</td>
+                        </tr>
+                        <tr>
+                            <td>Tax</td>
+                            <td>50 INR</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td>250 INR</td>
+                        </tr>
+                    </table>
+                    <a href="" class="checkout-btn">kaching</a>
+                </div>
+        </div>
+
+            <section class="section new-arrival">
+                <div class="title">
+                    <h2>Related </h2>
+                    <p>ALL the latest top wear collection!</p>
+                </div>
+                <div class="product-center">
+                    <div class="product-item">
+                        <div class="overlay">
+                            <a href="productDetails.html" class="product-thumb">
+                                <img src="images/metal-tshirt.png" style="max-width: 500px; max-height: 500px;" alt="black basic tshirt">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <span> UNISEX CLOTHES</span>
+                            <a href="productDetails.html">
+                                new top waer
+                            </a>
+                            <h4>350 INR</h4>
+                        </div>
+            
+                       <ul class="icons">
+                           <li><i class="bx bx-heart"></i></li>
+                           <li><i class="bx bx-search"></i></li>
+                           <li><i class="bx bx-cart"></i></li>
+                       </ul>
+                    </div>
+            
+                    <div class="product-item">
+                        <div class="overlay">
+                            <a href="productDetails.html" class="product-thumb">
+                                <img src="images/tshirt-petrol.png" style="max-width: 500px; max-height: 500px;" alt="blue basic tshirt">
+                            </a>
+                            <span class="discount">-20%</span>
+                        </div>
+                        <div class="product-info">
+                            <span>UNISEX CLOTHES</span>
+                            <a href="productDetails.html">
+                                new top waer
+                            </a>
+                            <h4>720 INR</h4>
+                        </div>
+                        <ul class="icons">
+                            <li><i class="bx bx-heart"></i></li>
+                            <li><i class="bx bx-search"></i></li>
+                            <li><i class="bx bx-cart"></i></li>
+                        </ul>
+                    </div>
+            
+                    <div class="product-item">
+                        <div class="overlay">
+                            <a href="productDetails.html" class="product-thumb">
+                                <img src="images/metalicblue.png" style="max-width: 500px; max-height: 500px;" alt="lila basic tshirt">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <span>UNISEX CLOTHES</span>
+                            <a href="productDetails.html">
+                                new top waer
+                            </a>
+                            <h4>650 INR</h4>
+                        </div>
+                        <ul class="icons">
+                            <li><i class="bx bx-heart"></i></li>
+                            <li><i class="bx bx-search"></i></li>
+                            <li><i class="bx bx-cart"></i></li>
+                        </ul>
+                    </div>
+                    <div class="product-item">
+                        <div class="overlay">
+                            <a href="productDetails.html" class="product-thumb">
+                                <img src="images/blank-1886001_1280.png" style="max-width: 500px; max-height: 500px;" alt="red basic tshirt">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <span>UNISEX CLOTHES</span>
+                            <a href="productDetails.html">
+                                new top waer
+                            </a>
+                            <h4>800 INR</h4>
+                        </div>
+                        <ul class="icons">
+                            <li><i class="bx bx-heart"></i></li>
+                            <li><i class="bx bx-search"></i></li>
+                            <li><i class="bx bx-cart"></i></li>
+                        </ul>
+                        
+                    </div>
+                  
+                </div>
+            </section>
+
+
+<footer class="footer">
+    <div class="row">
+        <div class="col d-flex">
+            <h4>INFORMATION</h4>
+            <a href="">About us</a>
+            <a href="">Contacts</a>
+            <a href="">Terms</a>
+            <a href="">Shipping Guide </a>
+        </div>
+        <div class="col d-flex">
+            <h4>USEFUL LINK's</h4>
+            <a href="">Online Store</a>
+            <a href="">Top Brands</a>
+            <a href="">Customer Service</a>
+            <a href="">Promotion </a>
+        </div>
+        <div class="col d-flex">
+            <span><i class="bx bxl-facebook square"></i></span>
+            <span><i class="bx bxl-instagram-alt"></i></span>
+            <span><i class="bx bxl-github"></i></span>
+            <span><i class="bx bxl-twitter"></i></span>
+            <span><i class="bx bxl-pinterest"></i></span>
+            <span><i class="bx bxl-youtube"></i></span>
+
+           
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+  
+    <script src="js/index.js"></script>
+</body>
+</html>

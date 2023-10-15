@@ -3,9 +3,18 @@
 **Project link 1: https://siddharthgauts.github.io/Ecom-js-css-html/**
 <br>
 
-
 **Project link 2: https://e-commerce-website-master.vercel.app/**
+ 
+**Features🌟**
 
+
+Minimalistic Design: Dive into an aesthetically pleasing interface that focuses on products, ensuring an intuitive shopping journey.
+
+Product Range: From trending apparels to must-have accessories, our carefully curated product list caters to diverse tastes and preferences.
+
+Efficient Cart Management: Add, modify, or remove products with ease. Our cart system is designed to handle your shopping needs efficiently.
+
+User Profiles: Create personalized user profiles to track orders, save favorite products, and manage shipping details.
 
 <h1> Screenshots</h1>
 <img src="https://github.com/siddharthgauts/Ecom-js-css-html/assets/95357196/096be12f-9d19-4cc0-8853-50bcea56f3ad">

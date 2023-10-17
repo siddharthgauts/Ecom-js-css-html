@@ -3,7 +3,7 @@
 **Project link 1: https://siddharthgauts.github.io/Ecom-js-css-html/**
 <br>
 
-**Project link 2: https://e-commerce-website-master.vercel.app/**
+**Project link 2: https://e-commerce-sid-master.vercel.app/**
  
 **Features🌟**
 
